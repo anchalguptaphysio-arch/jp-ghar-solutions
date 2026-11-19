@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" fill="none">
+  <defs>
+    <linearGradient id="room" x1="84" y1="48" x2="865" y2="687" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#172943"/>
+      <stop offset=".58" stop-color="#253b52"/>
+      <stop offset="1" stop-color="#111e30"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="465" y1="116" x2="758" y2="618" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#e4d7c2"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="486" y1="189" x2="743" y2="574" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f8f4eb"/>
+      <stop offset="1" stop-color="#d5c9b6"/>
+    </linearGradient>
+    <radialGradient id="ambient" cx="0" cy="0" r="1" gradientTransform="matrix(1 494 -604 1.22 500 110)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c5a16b" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#c5a16b" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="378" y="91" width="452" height="592" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="16"/>
+      <feGaussianBlur stdDeviation="24"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix values="0 0 0 0 0.02 0 0 0 0 0.05 0 0 0 0 0.09 0 0 0 0.5 0"/>
+      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+  </defs>
+  <rect width="960" height="720" fill="url(#room)"/>
+  <rect width="960" height="720" fill="url(#ambient)"/>
+  <path d="M0 558 960 478v242H0V558Z" fill="#0a1422" fill-opacity=".72"/>
+  <path d="m0 558 960-80" stroke="#d7bb8b" stroke-opacity=".14" stroke-width="2"/>
+  <path d="M101 117h219v443H101z" fill="#fff" fill-opacity=".025" stroke="#e8dccb" stroke-opacity=".12" stroke-width="2"/>
+  <path d="M152 117v443m116-443v443M101 258h219m-219 150h219" stroke="#e8dccb" stroke-opacity=".09" stroke-width="2"/>
+  <circle cx="221" cy="330" r="178" fill="#e1ba7d" fill-opacity=".055"/>
+  <path d="m119 480 85-54 76 41 74-46" stroke="#c5a16b" stroke-opacity=".34" stroke-width="4" stroke-linecap="round"/>
+  <g filter="url(#shadow)">
+    <rect x="431" y="139" width="342" height="490" rx="34" fill="url(#panel)"/>
+    <rect x="443" y="151" width="318" height="466" rx="26" stroke="#c5a16b" stroke-opacity=".58" stroke-width="2"/>
+    <path d="M478 209h248" stroke="#a9895b" stroke-opacity=".32" stroke-width="2"/>
+    <text x="602" y="187" fill="#334257" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="3" text-anchor="middle">JP  •  ELECTRICAL</text>
+    <rect x="475" y="239" width="251" height="335" rx="20" fill="url(#metal)" stroke="#bca987" stroke-opacity=".54" stroke-width="2"/>
+    <path d="M600.5 239v335M475 350h251M475 463h251" stroke="#bca987" stroke-opacity=".5" stroke-width="2"/>
+    <rect x="497" y="261" width="81" height="66" rx="12" fill="#fffdf7" stroke="#cbbd9f" stroke-width="2"/>
+    <rect x="622" y="261" width="81" height="66" rx="12" fill="#fffdf7" stroke="#cbbd9f" stroke-width="2"/>
+    <rect x="512" y="276" width="12" height="36" rx="6" fill="#b28b53"/>
+    <rect x="652" y="276" width="12" height="36" rx="6" fill="#b28b53"/>
+    <circle cx="684" cy="294" r="5" fill="#6d9276"/>
+    <rect x="497" y="373" width="81" height="66" rx="12" fill="#fffdf7" stroke="#cbbd9f" stroke-width="2"/>
+    <rect x="622" y="373" width="81" height="66" rx="12" fill="#fffdf7" stroke="#cbbd9f" stroke-width="2"/>
+    <rect x="512" y="388" width="12" height="36" rx="6" fill="#b28b53"/>
+    <rect x="652" y="388" width="12" height="36" rx="6" fill="#b28b53"/>
+    <circle cx="684" cy="406" r="5" fill="#6d9276"/>
+    <rect x="497" y="486" width="206" height="66" rx="12" fill="#fffdf7" stroke="#cbbd9f" stroke-width="2"/>
+    <path d="M548 503v18m18-18v18m-27 4h36v12c0 10-8 18-18 18s-18-8-18-18v-12Z" stroke="#6b7280" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    <circle cx="678" cy="519" r="5" fill="#6d9276"/>
+    <circle cx="678" cy="538" r="5" fill="#c47b68"/>
+  </g>
+  <path d="m242 553 37-80h-34l38-87-8 62h35l-68 105Z" fill="#e4bd7e"/>
+  <circle cx="260" cy="509" r="77" stroke="#e4bd7e" stroke-opacity=".22" stroke-width="2"/>
+  <circle cx="260" cy="509" r="103" stroke="#e4bd7e" stroke-opacity=".1" stroke-width="2"/>
+  <circle cx="86" cy="220" r="3" fill="#f3d9a8"/>
+  <circle cx="375" cy="162" r="2" fill="#f3d9a8" fill-opacity=".75"/>
+  <circle cx="833" cy="193" r="3" fill="#f3d9a8" fill-opacity=".85"/>
+  <circle cx="846" cy="530" r="2" fill="#f3d9a8" fill-opacity=".75"/>
+  <path d="M820 86v28m-14-14h28M373 606v20m-10-10h20" stroke="#f3d9a8" stroke-opacity=".56" stroke-width="2" stroke-linecap="round"/>
+</svg>
